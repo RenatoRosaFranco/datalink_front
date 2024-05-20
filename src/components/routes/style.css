@@ -1,0 +1,76 @@
+.touristic-guide {
+  position: relative;
+  border: 1px solid #EEE;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-left: -5px;
+  margin-top: -20px;
+  max-height: 100vh;
+  overflow-y: auto;
+
+  h2 {
+    position: relative;
+    font-size: 28px;
+    margin-top: 60px;
+  }
+
+  .input-group-addon {
+    position: relative;
+    background-color: #FFF;
+    border-right: 0px !important;
+  }
+
+  input[type=text] {
+    position: relative;
+    border-left: 0px !important;
+    height: 40px;
+  }
+
+  .nav-tabs {
+    position: relative;
+    margin-left: 20px;
+
+    .nav-item {
+      border: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: transparent;
+      font-size: 14px;
+    }
+
+    a:hover {
+      border: none !important;
+      background-color: transparent !important;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    position: relative;
+    text-decoration: none !important;
+    color: #000;
+  }
+
+  ul {
+    position: relative;
+    margin-top: -5px;
+    margin-left: 0px;
+    list-style-type: none;
+    
+    li {
+      border: 1px solid #EEE;
+      padding: 10px;
+      position: relative;
+      margin-left: -40px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+
+      &:hover, &.over {
+        background-color: #EEE;
+      }
+    }
+  }
+}
